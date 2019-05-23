@@ -34,9 +34,12 @@ self.addEventListener('install', event => {
         });
         fetch(request).then(response => cache.put(request, response));
       })
+      return cache.addAll(itemsToCache);
     })
+
   )
 });
+
 
 self.addEventListener('fetch', event => {
   event.respondWith(
