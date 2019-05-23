@@ -11,6 +11,6 @@
   "start_url": "./index.html",
   "background_color": "#3367D6",
   "display": "standalone",
-  "scope": "/portfolio/",
+  "scope": "/SD_140_Assignment_2/index.html",
   "theme_color": "#3367D6"
 }
