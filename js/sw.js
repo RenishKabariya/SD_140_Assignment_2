@@ -1,5 +1,6 @@
 const currentCache = 'portfolio-cache-v0';
 const itemsToCache = [
+  '/',
   'index.html',
   'imgs/CODE.png',
   'imgs/download.jpg',
